@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrall_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F51B5"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn Java"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn Android"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn PHP"
+            android:textColor="#E91E63" />
+
+
+        <!-- bla bla bla-->
+    </LinearLayout>
+
+
+</ScrollView>

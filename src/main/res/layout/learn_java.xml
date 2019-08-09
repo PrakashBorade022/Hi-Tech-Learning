@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrall_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/java_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History Of Java"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/why_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Java"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/oop_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java OOP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/classesandobject_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java Classes And Object"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/simpleprogram_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple Java Program"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/html"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operator"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/css"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loops"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/softengineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classes and Object"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/toc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inheritance"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/stqa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polymorphism"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AWT"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swing"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/cyberlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graphics in Java"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/compgraphics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JDBC"
+            android:textColor="#E91E63" />
+
+
+        <!-- bla bla bla-->
+    </LinearLayout>
+
+
+</ScrollView>

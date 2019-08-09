@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.falya.hitechlearning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_hitech"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_hitech"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".StartScreen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LearnJava" />
+        <activity android:name=".LearnAndroid" />
+        <activity android:name=".LearnPHP" />
+        <activity android:name=".how_to_learn" />
+        <activity android:name=".cs_and_it" />
+        <activity android:name=".You_Must_Know" />
+        <activity android:name=".Why_this_app" />
+        <activity android:name=".Prerequisits" />
+        <activity android:name=".About" />
+        <activity android:name=".Java_History" />
+        <activity android:name=".Why_Java" />
+        <activity android:name=".Java_OOP" />
+        <activity android:name=".Java_Class_Object" />
+        <activity android:name=".Java_Simple_Program" />
+        <activity android:name=".Android_what_is_android" />
+        <activity android:name=".Android_why_android" />
+        <activity android:name=".Android_history" />
+        <activity android:name=".Android_oop" />
+        <activity android:name=".Android_and_java" />
+        <activity android:name=".Android_and_kotlin" />
+        <activity android:name=".Android_avd" />
+        <activity android:name=".Android_types_of_app" />
+        <activity android:name=".Android_intent" />
+        <activity android:name=".Android_services" />
+        <activity android:name=".Android_activity" />
+        <activity android:name=".Android_layout" />
+        <activity android:name=".Android_view" />
+        <activity android:name=".Android_sqlite" />
+        <activity android:name=".Php_what_is_php" />
+        <activity android:name=".Php_why" />
+        <activity android:name=".Php_history" />
+        <activity android:name=".Php_veriable" />
+        <activity android:name=".Php_operator" />
+        <activity android:name=".Php_loops" />
+        <activity android:name=".Php_classObject" />
+        <activity android:name=".Php_and_mysql" />
+        <activity android:name=".Php_vs_js" />
+        <activity android:name=".Php_and_html" />
+        <activity android:name=".Php_function" />
+        <activity android:name=".Php_echo" />
+        <activity android:name=".Php_file"></activity>
+    </application>
+
+</manifest>

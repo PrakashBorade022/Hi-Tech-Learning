@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="4dp"
+            android:text="Why Should Learn Java ?"
+            android:textColor="#696969"
+
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="290dp"
+            android:text="There’s a long list of programming languages that continue to exist with their strengths and flaws, making our lives easier. Over the course of past 20 years, Java has proved that it’s one of the best programming languages around. However, I strongly don’t believe in any type of competition between different programming languages."
+            android:textColor="#696969"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textVie5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="42dp"
+            android:text="During its journey, this free and open source programming language has achieved numerous milestones and proved its worth. With time, Java has evolved and established its place as an essential ingredient for making successful software and applications. The recent indexes of programming languages’ popularity have once again reinforced that Java is one of the most popular languages around. "
+            android:textColor="#696969"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="518dp"
+            android:text="Following Are Some More resons for learning java : "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="11dp"
+            android:layout_y="887dp"
+            android:text=" 2- Tons of resources to learn Java
+
+Being a mature programming language, there are numerous resources available online that can act as your perfect companion in the learning process. Depending upon your need, you can look for free and paid learning resource to aid yourself. In short, almost any imaginable doubt related to Java has already been asked and answered on the online forums."
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="575dp"
+            android:text="1- Lots of job opportunities
+
+Programmers with a sound knowledge of Java are in great demand. With a large installed base, this widely used programming language continues to create jobs in the tech industry. Additionally, the popularity of Android apps has brought along countless opportunities for an Android developer who write native apps in Java."
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="1170dp"
+            android:textSize="20dp"
+            android:text="3. It’s an Object Oriented Programming Language
+
+Being an Object Oriented Programming language, the concepts of Java are relatable and much easier. This property makes Java a flexible, system modular, and extensible programming language. Java strongly suggests the best practices of OOP design and promotes its correct usage." />
+
+
+    </AbsoluteLayout>
+
+
+</ScrollView>

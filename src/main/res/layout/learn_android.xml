@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrall_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/android_what_is_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is android"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_why_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why android"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History of Android"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_oop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OOP and android"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_and_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android and java"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_and_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android and kotlin"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_avd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="avd"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_types_of_android_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="types of android app"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="activity"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/android_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout"
+            android:textColor="#E91E63" />
+
+
+
+        <Button
+            android:id="@+id/android_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLite"
+            android:textColor="#E91E63" />
+
+
+        <!-- bla bla bla-->
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/background_light"
+        tools:context="com.falya.hitechlearning.how_to_learn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="211dp"
+            android:text=" What is Object :."
+            android:textColor="#696969"
+
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            app:srcCompat="@drawable/javaclassobject"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="249dp"
+            android:text=" If we consider the real-world, we can find many objects around us, cars, dogs, humans, etc. All these objects have a state and a behavior.
+
+If we consider a dog, then its state is - name, breed, color, and the behavior is - barking, wagging the tail, running.
+
+If you compare the software object with a real-world object, they have very similar characteristics.
+
+Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.
+
+So in software development, methods operate on the internal state of an object and the object-to-object communication is done via methods."
+            android:textColor="#696969"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="782dp"
+            android:text="What is Class :"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="828dp"
+            android:text="A class is a blueprint from which individual objects are created"
+            android:textSize="20dp" />
+
+
+    </AbsoluteLayout>
+
+</ScrollView>

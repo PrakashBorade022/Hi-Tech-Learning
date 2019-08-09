@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="4dp"
+            android:text="How Related  OOP with Android :"
+            android:textColor="#2196F3"
+
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_x="0dp"
+            android:layout_y="99dp"
+            app:srcCompat="@drawable/oopandandroid" />
+
+        <TextView
+            android:id="@+id/textViw5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="316dp"
+            android:text="Object-oriented programming has brought about a big change in application development and programming. An object-oriented program is, at its heart, designed to be modified. Using correctly written software, you can take advantage of features that are already built in, add new features of your own, and override features that don’t suit your needs."
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textVew5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="556dp"
+            android:text="When you write an object-oriented program, you start by considering the data. Say you’re writing about accounts. So what’s an account? You’re writing code to handle button clicks. So what’s a button? You’re writing a program to send payroll checks to employees. What’s an employee?"
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="774dp"
+            android:text="So in the simple words OOP is every were and without oop nothing to be with you"
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

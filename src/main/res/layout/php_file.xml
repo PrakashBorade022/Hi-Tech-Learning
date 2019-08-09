@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="3dp"
+            android:text="PHP File System"
+            android:textColor="#8BC34A"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"
+            android:layout_x="0dp"
+            android:layout_y="51dp"
+            android:src="@drawable/phpfile" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="319dp"
+            android:text="PHP File System allows us to create file, read file line by line, read file character by character, write file, append file, delete file and close file."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

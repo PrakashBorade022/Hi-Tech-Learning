@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="4dp"
+            android:text="Kotlin And Abdroid -"
+            android:textColor="#2196F3"
+
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_x="0dp"
+            android:layout_y="65dp"
+            app:srcCompat="@drawable/kotlinandandroid" />
+
+        <TextView
+            android:id="@+id/teView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="351dp"
+            android:text="Kotlin Kill Java?"
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teVie5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:text="In the google IO 2017 google anounce the Kotlin ."
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/na"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="449dp"
+            android:text="Kotlin is a great fit for developing Android applications, bringing all of the advantages of a modern language to the Android platform without introducing any new restrictions:"
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teVi5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="580dp"
+            android:text="Compatibility: Kotlin is fully compatible with JDK 6, ensuring that Kotlin applications can run on older Android devices with no issues. The Kotlin tooling is fully supported in Android Studio and compatible with the Android build system."
+            android:textColor="#2196F3"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="746dp"
+            android:textSize="20dp"
+            android:text="Performance: A Kotlin application runs as fast as an equivalent Java one, thanks to very similar bytecode structure. With Kotlin's support for inline functions, code using lambdas often runs even faster than the same code written in Java."
+            android:textColor="#2196F3" />
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

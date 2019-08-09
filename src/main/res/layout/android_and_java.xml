@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="4dp"
+            android:text="Why Java For Android :"
+            android:textColor="#3F51B5"
+
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:layout_x="0dp"
+            android:layout_y="64dp"
+            app:srcCompat="@drawable/javaandroid" />
+
+        <TextView
+            android:id="@+id/textViw5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="253dp"
+            android:text="There are so many things to define how they two the android and java programming are related each other.In the following section we will going to show you some of them."
+            android:textColor="#3F51B5"
+
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_x="0dp"
+            android:layout_y="400dp"
+            app:srcCompat="@drawable/javaandroidtwo" />
+
+        <TextView
+            android:id="@+id/textVew5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="611dp"
+            android:text="The improvement to system stability is very important on a device like a cell phone."
+            android:textColor="#3F51B5"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/xtVew5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="692dp"
+            android:text="Security is even more important. The Android environment lets users run semi-trusted apps which could exploit the phone in truly unpleasant ways without excellent security. By running all apps in a virtual machine, you guarantee that no app can exploit the OS kernel unless there is a flaw in the VM implementation. The VM implementation, in turn, is presumably small and has a small, well-defined security surface."
+            android:textColor="#3F51B5"
+
+            android:textSize="20dp" />
+
+
+    </AbsoluteLayout>
+
+
+</ScrollView>

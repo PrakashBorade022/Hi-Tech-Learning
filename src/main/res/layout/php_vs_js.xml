@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="3dp"
+            android:text="comparison between PHP vs JavaScript :"
+            android:textColor="#8BC34A"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"
+            android:layout_x="0dp"
+            android:layout_y="107dp"
+            android:src="@drawable/phpvsjs" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="348dp"
+            android:text="Is not fair to compare PHP vs JavaScript, as they both have different purposes for web-site development. PHP is a server-side scripting language while JavaScript is a client-side scripting language. In fact, the most dynamic website is created when we use functions of both these languages together. If PHP is like a paint-brush to paint picture, then JavaScript is a paint-color."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

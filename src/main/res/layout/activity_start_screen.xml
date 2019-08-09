@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_start"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:orientation="vertical"
+        tools:context="com.falya.hitechlearning.StartScreen">
+
+        <Button
+            android:id="@+id/start_learning"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Start Learning"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/how_to_learn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:text="How To Learn"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/cs_and_it"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="CS and IT"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/you_must_know"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:text="You Must Khow"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/why_this_app"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Why This App"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/prerequisites"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:text="Prerequisites"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="About"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+</ScrollView>

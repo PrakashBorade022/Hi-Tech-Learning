@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="20dp"
+            android:text="Types of Layout in Android :-"
+            android:textColor="#2196F3"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_x="0dp"
+            android:layout_y="74dp"
+            app:srcCompat="@drawable/layout" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="7dp"
+            android:layout_y="293dp"
+            android:text="Linear Layout"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="469dp"
+            android:text="Table Layout"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="330dp"
+            android:text="Relative Layout"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="511dp"
+            android:text="Absolute Layout"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="435dp"
+            android:text="Frame Layout"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="399dp"
+            android:text="GridView"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="367dp"
+            android:text="ListView"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

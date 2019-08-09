@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="3dp"
+            android:text="History of PHP"
+            android:textColor="#8BC34A"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"
+            android:layout_x="49dp"
+            android:layout_y="51dp"
+            android:src="@drawable/phphistory" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="315dp"
+            android:text="PHP is an HTML-embedded scripting language primarily used for dynamic Web applications. The first part of this definition means that PHP code can be interspersed with HTML, making it simple to generate dynamic pieces of Web pages on the fly. As a scripting language, PHP code requires the presence of the PHP processor."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="542dp"
+            android:text="PHP, or PHP hypertext preprocessor, was written in 1994 and experienced its first public release in 1995. It began as a set of tools for creating and maintaining homepages, yet the history of PHP shows its evolution into a powerful, accessible programming language now used in tight conjunction with MySQL. This online video provides a brief developmental history of PHP right up to PHP 5, which is the current release."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+
+
+
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

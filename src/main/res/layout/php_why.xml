@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="3dp"
+            android:text="Why Learn PHP...?"
+            android:textColor="#8BC34A"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="39dp"
+            android:src="@drawable/phpwhy" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:text="Fast Load Time – PHP results in faster site loading speeds. PHP codes runs much faster than ASP because it runs in its own memory space while ASP uses an overhead server and a COM based architecture."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="490dp"
+            android:text="Less Expensive Hosting – ASP programs need to run on Windows servers with IIS installed. Hosting companies need to purchase both of these components in order for ASP to work, this often results in a more expensive cost for monthly hosting services. On the other hand, a PHP would only require running on a Linux server, which is available through a hosting provider at no additional cost."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="763dp"
+            android:text="Database Flexibility – PHP is flexible for database connectivity. It can connect to several databases the most commonly used is the MySQL.  MySQL can be used for free. If ASP is used, MS-SQL, a Microsoft product must be purchased."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="931dp"
+            android:text="Less Expensive Software – In working with PHP, most tools associated with the program are open source software, such as WordPress, so you need not pay for them. As for ASP, you might need to buy additional tools to work with its programs."
+            android:textColor="#8BC34A"
+            android:textSize="20dp" />
+
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

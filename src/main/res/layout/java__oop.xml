@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/background_light"
+        tools:context="com.falya.hitechlearning.how_to_learn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="183dp"
+            android:text=" Object-oriented programming System(OOPs) is a programming paradigm based on the concept of “objects” that contain data and methods. The primary purpose of object-oriented programming is to increase the flexibility and maintainability of programs. Object oriented programming brings together data and its behaviour(methods) in a single location(object) makes it easier to understand how a program works. We will cover each and every feature of OOPs in detail so that you won’t face any difficultly understanding OOPs Concepts."
+            android:textColor="#696969"
+
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="359dp"
+            android:layout_height="156dp"
+            android:layout_x="11dp"
+            android:layout_y="10dp"
+            app:srcCompat="@drawable/java"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+
+    </AbsoluteLayout>
+
+</ScrollView>

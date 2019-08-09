@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="3dp"
+            android:text="How does PHP works with HTML :"
+            android:textColor="#8BC34A"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="77dp"
+            android:src="@drawable/phphtml" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="266dp"
+            android:text="In this section we will going to see how does PHP works or embed with your HTML file."
+            android:textColor="#304FFE"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="351dp"
+            android:text="PHP and HTML interact a lot: PHP can generate HTML, and HTML can pass information to PHH"
+            android:textColor="#304FFE"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="440dp"
+            android:text="There are two ways to use HTML on your PHP page. The first way is to put the HTML outside of your PHP tags. You can even put it in the middle if you close and reopen the  tags. "
+            android:textColor="#304FFE"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="570dp"
+            android:text="The second way to use HTML with PHP is by using PRINT or ECHO. By using this method you can include the HTML inside of the PHP tags. This is a nice quick method if you only have a line or so to do. "
+            android:textColor="#304FFE"
+            android:textSize="20dp" />
+    </AbsoluteLayout>
+
+
+
+
+</ScrollView>

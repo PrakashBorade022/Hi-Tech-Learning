@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrall_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/php_waht_is_php"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is PHP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_why_php"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why PHP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_histroy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History of PHP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_oop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OOP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_variable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veriable in PHP"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_operator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operator"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_loops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loops"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_class_object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classes and Object"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_and_mysql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php and mysql"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_vs_js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php vs javaScript"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_and_html"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php and HTML"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_function"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php function"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_echo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php echo"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/php_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="php file"
+            android:textColor="#E91E63" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

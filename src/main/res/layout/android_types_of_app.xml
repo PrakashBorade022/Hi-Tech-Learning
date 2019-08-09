@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.falya.hitechlearning.Java_History">
+
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:text="Android Application types :"
+            android:textColor="#2196F3"
+
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="43dp"
+            android:text="From the personal to proffestional  use there are many types of android application in industry.That's are divided in the following categories :"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="158dp"
+            android:text="Native apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="397dp"
+            android:text="Hybrid apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="204dp"
+            android:text="Web apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="325dp"
+            android:text="Gaming apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="7dp"
+            android:layout_y="247dp"
+            android:text="Business apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_x="0dp"
+            android:layout_y="424dp"
+            android:text="Travel apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="468dp"
+            android:text="Educational apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/twel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="511dp"
+            android:text="Entertainment apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="365dp"
+            android:text="Lifestyle apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/eleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="284dp"
+            android:text="Utility apps"
+            android:textColor="#6200EA"
+
+            android:textSize="20dp" />
+
+
+
+    </AbsoluteLayout>
+</ScrollView>
